@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #003060 ;
+  overflow: hidden;
+  box-shadow: 0 0 4px #032444;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #C3E0E5;
+  color: black;
+}
+.sidebar {
+  height: 100vh;
+  width: 14rem;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: #032444 ;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-shadow: 0 0 4px #032444;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+.navbar-brand{
+  margin-left: 100px;
+}
+.menu{
+  width: 100%;
+  color: #ffffff;
+}
+.menu .option{
+  margin-top: 6px;
+  padding: 14px 20px;
+ 
+}
+.menu i,a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+.menu i{
+  padding-right: 8px;
+}
+.menu .options{
+  position: absolute;
+  top: 6rem;
+  width: 100%;
+}
+.sidebar .menu .option:hover{
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+.dropdown{
+  margin-right: 10px;
+} 
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+@media screen and (max-width: 614px) {
+  #btn1{
+    font-size: 14px;
+    padding-bottom: 1px;
+  }
+  }
+@media screen and (max-width: 614px) {
+  .form-control{
+    width: 100px;
+    height: 33px;
+  }    
+}
+@media screen and (max-width: 953px) {
+  .main-content{
+    margin-top: 10rem;
+  } 
+}
+@media screen and (max-width: 614px) {
+  span{
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 614px) {
+  .sidebar{
+    width: 12rem;
+  }
+}
+@media screen and (max-width: 614px) {
+  .session{
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .form-control{
+    margin-left: 10px;
+  }  
+}
