@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h5 {
+    margin-top: 0;
+    background-color: #274472;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-label,input {
+    margin-bottom: 15px;
+}
+.form-label,label {
+    margin-bottom: 7px;
+}
+.form-group .btn{
+    font-size: 0.9rem;
+}
+.form-group .button:hover{
+    box-shadow: 1px 5px 5px rgb(0, 0, 0);
+}
+.container:hover{
+    box-shadow: 1px 5px 5px rgb(0, 0, 0);    
+}
+.form-group span{
+    padding-right: 8px;
+    color: #52ef52;
+}
+span{
+    color: red;
+}
+h6{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+p
+{
+    margin-left: 15px;    
+}
+.form-group svg{
+    padding-right: 6px;
+}
