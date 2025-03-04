@@ -1,51 +1,81 @@
-header{
-    background-color:#003060 ;
-    border: 2px solid black;
-    width: 100%;
-   
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/Dav_college_jalandhar.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
 }
-a{
-    text-decoration: none;
+.navbar {
+  background-color: #003060;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
 }
-body{
-    background-image: url(../images/Dav_college_jalandhar.jpg);
-    background-size: cover;
-    height: 100vh;
-    background-attachment: fixed;
+.navbar a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
 }
-#card-container2{
-    margin-top: 70px;
-    justify-content: center;
-    height: 500px;
-
+.navbar a:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
-#container1{
-    align-items: center;
-    
+.container {
+  text-align: center;
+  padding: 20px;
 }
-#img1{
-    height: 310px;
-    width: 330px;
+.logo {
+  float: left;
+  margin: 20px 0;
 }
-.card{
-    height: 300px;
-    width: 350px;
-    background-color: #C3E0E5;
-    border: 2px solid #000000 ;
-    box-shadow: 3px 5px 5px rgb(38, 37, 37);
+.logo img {
+  height: 3rem;
+  width: 20rem;
 }
-div a{
-    color: #003060;
-   
+.buttons {
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
 }
-a:hover{
-    text-decoration: underline;
-    color: rgb(20, 60, 168);
+.button {
+  background-color: #e7eced;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 13rem;
+  text-align: center;
+  border: 2px solid #000000;
+  box-shadow: 3px 5px 5px rgb(78, 77, 77);
+  height: 13rem;
 }
-.card:hover{
-    box-shadow: 10px 8px 8px rgb(0, 0, 0);
-   padding: 10px;
+.button img {
+  width: 9rem;
 }
-h6{
-     margin-top: -10px;
+.button a {
+  font-size: 0.9rem;
+  color: #333;
+  text-decoration: none;
+}
+.button h6{
+  margin-top: 0.7rem;
+}
+.button:hover{
+  box-shadow: 10px 8px 8px rgb(0, 0, 0);
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  .button {
+      width: 15rem;
+  }
+}
+.button h6:hover{
+  text-decoration: underline;
+  color: blue;
 }
